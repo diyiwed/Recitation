@@ -1,0 +1,75 @@
+/**
+ *@name: 主页css文件
+ 
+ *@description: 这个文件用于设置主页的css样式
+ *@author: 查国佩
+ *@update: 2021-03-11 00:00
+ */
+
+
+/* 版本一 */
+
+/* body {
+	background-color: black
+}
+
+.main {
+	width: 70rem;
+	height: 150rem;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+
+.header 
+.hTxt {
+	text-align: center;
+	font-size: 2rem;
+} */
+
+
+/* 版本二 */
+.body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	 text-decoration: none;
+	 color: inherit;
+}
+
+.main {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	
+}
+
+.sidebar {
+	width: 20%;
+	height: 100%;
+	/* background: blue; */
+}
+
+.sidebar .submenu {
+	width: 100%;
+	height: 60px;
+	background: yellow;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.sidebar .submenu:hover {
+	background: rgb(71, 133, 204);
+}
+
+.content {
+	width: 89%;
+	height: 100%;
+	margin-left: 1%;
+	background: violet;
+}
+
+/* 弹框样式 */
+
